@@ -1,0 +1,10 @@
+if __name__ == '__main__':
+    n = int(input())
+if n in range (1, 21):
+    a=1
+    for a in range (0, n):
+        print(a**2)
+        a=a+1
+else:
+    print("Enter a number less than or equal to 20")            
+    
