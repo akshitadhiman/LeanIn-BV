@@ -1,0 +1,11 @@
+import turtle
+alex=turtle.Turtle()
+alex.fillcolor('black')
+alex.begin_fill()
+alex.forward(100)
+alex.left(120)
+alex.forward(100)
+alex.left(120)
+alex.forward(100)
+alex.end_fill()
+turtle.mainloop()
