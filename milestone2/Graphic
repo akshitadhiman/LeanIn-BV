@@ -1,0 +1,11 @@
+import turtle
+alex = turtle.Turtle()
+length = int(input('enter the length of sides\n'))
+sides = int(input('enter number of sides\n'))
+
+while True:
+    length = length - 2
+    alex.forward(length)
+    alex.left(360/sides)
+    if length < 0:
+      break
