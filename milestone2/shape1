@@ -1,0 +1,8 @@
+import turtle
+alex = turtle.Turtle()
+distance = 10
+for i in range(10):
+    alex.forward(distance)
+    alex.right(90)
+    distance = distance+10
+turtle.mainloop()
