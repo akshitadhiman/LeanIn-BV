@@ -1,0 +1,8 @@
+import turtle
+alex=turtle.Turtle()
+alex.pen(pencolor="purple")
+n=10
+while n<50:
+    alex.circle(n)
+    n=n+10
+turtle.mainloop()
