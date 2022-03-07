@@ -1,0 +1,19 @@
+class Solution:
+    def checkIfExist(self, arr: List[int]) -> bool:
+        arr_in_order = sorted(arr)
+        
+        visited = set()
+        for num in arr_in_order:
+            if num * 2 in visited:
+                return True
+            
+            visited.add(num)
+            
+        visited = set()
+        for num in arr_in_order[::-1]:
+            if num * 2 in visited:
+                return True
+            
+            visited.add(num)
+            
+        return False
